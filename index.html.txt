@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Raiders Lab ⚡</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <h1>Raiders Lab ⚡</h1>
+
+    <p>
+      Gaming Websites • Video Editing • AI Tools • Roblox Projects
+    </p>
+
+    <div class="buttons">
+
+      <a
+        href="#projects"
+        class="btn cyan"
+      >
+        View Projects
+      </a>
+
+      <a
+        href="mailto:tobanathaniel1@gmail.com"
+        class="btn outline"
+      >
+        Contact Me
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services">
+
+    <h2>Services</h2>
+
+    <div class="service-grid">
+
+      <div class="card">
+        <h3>⚡ Gaming Websites</h3>
+
+        <p>
+          Custom websites for Roblox crews, gaming communities and creators.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🤖 AI Tools</h3>
+
+        <p>
+          Smart AI assistants like NightBlox AI powered by modern APIs.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🎨 Modern UI</h3>
+
+        <p>
+          Neon styled interfaces with smooth animations and mobile support.
+        </p>
+      </div>
+
+      <div class="card">
+
+        <h3>🎬 Video Editing</h3>
+
+        <p>
+          Fast-paced gaming edits, shorts and cinematic effects.
+        </p>
+
+        <a
+          href="https://www.youtube.com/watch?v=mE5IDstDLTw"
+          target="_blank"
+          class="video-btn"
+        >
+          Watch Best Edit
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+
+    <h2>Featured Projects</h2>
+
+    <div class="project-grid">
+
+      <div class="project-card">
+
+        <h3>⚡ NightBlox AI</h3>
+
+        <p>
+          AI-powered Blox Fruits assistant with modern chat UI.
+        </p>
+
+      </div>
+
+      <div class="project-card">
+
+        <h3>🌌 Portfolio Website</h3>
+
+        <p>
+          Personal portfolio showcasing coding skills and projects.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      Built by Nathaniel Toba aka Midnight_raider • Raiders Lab ⚡
+    </p>
+
+  </footer>
+
+</body>
+</html>

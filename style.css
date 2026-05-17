@@ -1,0 +1,170 @@
+/* RESET */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+  background: #050505;
+  color: white;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* HERO */
+
+.hero{
+  text-align: center;
+  padding: 120px 20px;
+  background:
+  linear-gradient(
+    to bottom right,
+    rgba(140,0,255,0.3),
+    rgba(0,255,255,0.1),
+    black
+  );
+}
+
+.hero h1{
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero p{
+  font-size: 1.3rem;
+  color: #cfcfcf;
+  margin-bottom: 40px;
+}
+
+/* BUTTONS */
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn{
+  padding: 15px 30px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cyan{
+  background: cyan;
+  color: black;
+}
+
+.cyan:hover{
+  transform: scale(1.05);
+}
+
+.outline{
+  border: 2px solid cyan;
+  color: white;
+}
+
+.outline:hover{
+  background: cyan;
+  color: black;
+}
+
+/* SECTIONS */
+
+.services,
+.projects{
+  padding: 80px 20px;
+}
+
+.services h2,
+.projects h2{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+/* GRID */
+
+.service-grid,
+.project-grid{
+  display: grid;
+  grid-template-columns:
+  repeat(auto-fit, minmax(250px,1fr));
+
+  gap: 25px;
+}
+
+/* CARDS */
+
+.card,
+.project-card{
+  background: #111;
+  padding: 30px;
+  border-radius: 25px;
+  border: 1px solid #222;
+  transition: 0.3s;
+}
+
+.card:hover,
+.project-card:hover{
+  transform: translateY(-10px);
+}
+
+.card h3,
+.project-card h3{
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.card p,
+.project-card p{
+  color: #bdbdbd;
+}
+
+/* VIDEO BUTTON */
+
+.video-btn{
+  display: inline-block;
+  margin-top: 20px;
+  background: red;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.video-btn:hover{
+  transform: scale(1.05);
+}
+
+/* FOOTER */
+
+footer{
+  text-align: center;
+  padding: 40px;
+  border-top: 1px solid #222;
+  color: gray;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+  .hero h1{
+    font-size: 2.8rem;
+  }
+
+  .hero p{
+    font-size: 1rem;
+  }
+
+}
